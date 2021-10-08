@@ -1,0 +1,14 @@
+<h3>Formulario de Objetos</h3>
+
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Objeto</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mouse, teclado , etc ..."
+        [(ngModel)]="formulario.objeto" name="objeto">
+</div>
+<div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="tamaño, color, precio, etc..."
+        [(ngModel)]="formulario.descripcion" name="descripcion">
+</div>
+<button type="submit" class="btn btn-success" (click) = "Enviar()">Enviar</button>
+
